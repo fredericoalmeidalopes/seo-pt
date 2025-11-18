@@ -91,6 +91,41 @@ Ele **completa aquilo que nenhum plugin internacional cobre.**
 
 ---
 
+##  Estrutura do Plugin
+
+```
+seo-pt/
+│
+├── pt-seo.php                 # Ficheiro principal do plugin
+│
+├── assets/
+│   ├── admin.js               # Scripts gerais do painel
+│   └── admin.css              # Estilos gerais
+│
+├── modules/
+│   ├── lingua/                # Módulo linguístico
+│   │   ├── module-lingua.php
+│   │   ├── lingua-unified.js
+│   │   ├── lingua.css
+│   │   └── dictionary/
+│   │        ├── patterns.json
+│   │        └── ptbr-ptpt.json
+│   │
+│   └── local/                 # Módulo de localização
+│       ├── module-local.php
+│       ├── admin-local.css
+│       ├── admin-local.js
+│       └── data/
+│            └── pt-admin.min.json
+│
+└── includes/
+    ├── class-options.php
+    └── class-admin.php
+```
+
+---
+
+
 #  Instalação
 
 ### Método 1: via WordPress
