@@ -133,8 +133,6 @@ Alerta gerado:
 3. Opcional: definir **localidade**  
 4. O plugin passa a gerar schema PT-optimizado em todas as páginas de LocalBusiness.
 
-## Licença
-Distribuído sob a **GPLv2 ou posterior**. 
 
 ### Exemplo de schema gerado
 ```json
@@ -152,6 +150,7 @@ Distribuído sob a **GPLv2 ou posterior**.
     "parish": "Alcabideche"
   }
 }
-
+```
  
-
+## Licença
+Distribuído sob a **GPLv2 ou posterior**. 
