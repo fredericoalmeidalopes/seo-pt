@@ -1,6 +1,7 @@
 # 🇵🇹 SEO-PT — Add-on de SEO para WordPress optimizado para Portugal
 
-O **SEO-PT** é um add-on complementar aos maiores plugins SEO do mercado — **Yoast**, **Rank Math**, **SEOPress**, **AIOSEO** — desenvolvido especificamente para resolver duas limitações que estes plugins **não conseguem cobrir por serem genéricos e internacionais**:
+O **SEO-PT** é um add-on complementar aos maiores plugins SEO do mercado: **Yoast**, **Rank Math**, **SEOPress**, **AIOSEO**. 
+Desenvolvido especificamente para resolver duas limitações que estes plugins **não conseguem cobrir por serem genéricos e internacionais**:
 
 ---
 
