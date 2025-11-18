@@ -1,10 +1,16 @@
 <?php
 /**
- * Plugin Name: PT SEO Suite
- * Description: Suite de SEO para PT com módulos: (1) Local (JSON-LD + listas PT), (2) Análise Linguística PT‑PT. Painel principal tipo Yoast.
+ * Plugin Name: SEO PT
+ * Plugin URI: https://github.com/fredericoalmeidalopes/seo-pt
+ * Description: Ferramentas de revisão PT-PT/PT-BR, sugestões de SEO e base de localização PT para WordPress.
  * Version: 2.0.5
- * Author: Frederico Lopes & M365 Copilot
+ * Author: Frederico Lopes
+ * Author URI: https://fredericolopes.com
  * Text Domain: pt-seo
+ * Requires at least: 5.8
+ * Requires PHP: 7.4
+ * License: GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
 if ( ! defined('ABSPATH') ) exit;
 if ( ! defined('PTSEO_VERSION') ) define('PTSEO_VERSION','2.0.5');
