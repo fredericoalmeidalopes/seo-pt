@@ -1,6 +1,6 @@
 # SEO PT — Plugin WordPress
 
-O **SEO PT** é um plugin desenvolvido para auxiliar na otimização de conteúdos em Português (PT-PT e PT-BR), oferecendo ferramentas de revisão linguística, boas práticas de SEO e funcionalidades de localização para sites WordPress.
+O **SEO PT** é um plugin desenvolvido para auxiliar na otimização de conteúdos em Português (PT-PT e PT-BR), que oferece ferramentas de revisão linguística, boas práticas de SEO e funcionalidades de localização para sites WordPress. Add on para Yost, RankMath e Allinone.
 
 ---
 
