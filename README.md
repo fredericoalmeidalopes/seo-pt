@@ -1,104 +1,150 @@
-# SEO PT — Plugin WordPress
+# 🇵🇹 SEO-PT — Add-on de SEO para WordPress optimizado para Portugal
 
-O **SEO PT** é um plugin desenvolvido para auxiliar na otimização de conteúdos em Português (PT-PT e PT-BR), que oferece ferramentas de revisão linguística, boas práticas de SEO e funcionalidades de localização para sites WordPress. Add on para Yost, RankMath e Allinone.
-
----
-
-##  Funcionalidades Principais
-
-###  Conversão PT-BR ⇄ PT-PT  
-- Detecção automática de vocabulário brasileiro.  
-- Sugestões de substituição para português europeu.  
-- Sistema baseado em dicionários personalizados.  
-
-###  Revisão de Sintaxe e Estilo  
-- Identificação de uso excessivo de gerúndios.  
-- Alerta para construções fracas, redundâncias ou expressões pouco naturais.  
-- Sugestões de melhoria baseadas em padrões linguísticos.
-
-###  Módulo de Localização  
-- Gestão de distritos, concelhos e localidades portuguesas.  
-- Base de dados PT estruturada em JSON.  
-- Preparado para integração com campos de contacto ou formulários.
-
-###  Interface simples no WordPress  
-- Painel dedicado no menu lateral do WP.  
-- Tabs: Geral / Localização (JS e CSS próprios).  
-- Opções gravadas via API nativa (`settings_api`).
+O **SEO-PT** é um add-on complementar aos maiores plugins SEO do mercado — **Yoast**, **Rank Math**, **SEOPress**, **AIOSEO** — desenvolvido especificamente para resolver duas limitações que estes plugins **não conseguem cobrir por serem genéricos e internacionais**:
 
 ---
 
-##  Estrutura do Plugin
+## ✅ O que este plugin resolve (as 2 grandes falhas dos plugins de SEO globais)
 
-```
-seo-pt/
-│
-├── pt-seo.php                 # Ficheiro principal do plugin
-│
-├── assets/
-│   ├── admin.js               # Scripts gerais do painel
-│   └── admin.css              # Estilos gerais
-│
-├── modules/
-│   ├── lingua/                # Módulo linguístico
-│   │   ├── module-lingua.php
-│   │   ├── lingua-unified.js
-│   │   ├── lingua.css
-│   │   └── dictionary/
-│   │        ├── patterns.json
-│   │        └── ptbr-ptpt.json
-│   │
-│   └── local/                 # Módulo de localização
-│       ├── module-local.php
-│       ├── admin-local.css
-│       ├── admin-local.js
-│       └── data/
-│            └── pt-admin.min.json
-│
-└── includes/
-    ├── class-options.php
-    └── class-admin.php
-```
+### 1️⃣ Curadoria linguística para Português Europeu (PT-PT)
+A maioria das ferramentas de SEO assume o **português do Brasil** como padrão.  
+O SEO-PT corrige isso ao introduzir:
+
+- Conversão automática BR → PT-PT (dicionário customizável)  
+- Alertas linguísticos:  
+  - gerúndio excessivo (*“estamos realizando” → “estamos a realizar”*)  
+  - termos não naturais em português europeu  
+  - construções sintáticas pouco elegantes  
+- Sugestões automáticas de estilo  
+- Análise textual integrada no painel WordPress
+
+ **Resultado:** conteúdos mais naturais para o público português, maior relevância semântica e melhoria do SEO on-page.
 
 ---
 
-##  Instalação
+### 2️⃣ Schema e localização adaptados à organização territorial única de Portugal
+Nenhum plugin SEO internacional conhece a divisão geográfica portuguesa.
 
-1. Carregar a pasta do plugin para:  
-   `wp-content/plugins/seo-pt/`
-2. Aceder ao painel do WordPress.  
-3. Ir a **Plugins → Ativar**.  
+O SEO-PT inclui uma **base de dados oficial de:**
 
----
+- **18 distritos**
+- **308 concelhos**
+- **3092 freguesias**
+- + localidades (quando aplicável)
 
-##  Desenvolvimento
+E permite:
 
-### Requisitos
-- PHP 7.4+
-- WordPress 5.8+
-- Conhecimentos básicos de hooks, actions e filters (opcional)
+- Associar cada página/negócio/local a distrito, concelho e freguesia  
+- Gerar schema LocalBusiness **100% compatível com o território português**  
+- Corrigir automaticamente marcações que Yoast/RankMath fazem de forma imprecisa  
+- Exportar / importar a base de dados em JSON
 
-### Notas de desenvolvimento
-- Cada módulo é independente.  
-- JS modularizado por contexto (linguística vs. localização).  
-- JSONs externos permitem futuras atualizações sem alterar código PHP.
+ **Resultado:** dados estruturados mais completos e mais relevantes para negócios locais portugueses.
 
 ---
 
-##  Roadmap (futuras melhorias)
+#  Compatibilidade
 
-- Integração com Gutenberg (blocos de aviso/alerta).  
-- Ferramenta de análise por página (score SEO + linguística).  
-- Exportação / importação de dicionários personalizados.  
-- Modo automático de correção em massa.  
+O SEO-PT funciona como **extensão (add-on) complementar** aos seguintes plugins:
+
+| Plugin SEO | Compatibilidade | Observações |
+|-----------|-----------------|-------------|
+| **Yoast SEO** | ✔️ | Funciona em paralelo, adicionando camadas PT-PT e schema PT |
+| **Rank Math** | ✔️ | Melhora linguagem e localização sem conflitos |
+| **AIOSEO** | ✔️ | Mantém-se como add-on independente |
+| **SEOPress** | ✔️ | Complementar e não intrusivo |
+
+O SEO-PT **não substitui** o teu plugin SEO.  
+Ele **completa aquilo que nenhum plugin internacional cobre.**
 
 ---
 
-##  Licença
-MIT License
+#  Funcionalidades principais
+
+###  1. Curadoria linguística PT-PT
+- Conversão automática BR → PT-PT  
+- Dicionário editável em JSON  
+- Alertas de vocabulário (ex.: *ônibus → autocarro*)  
+- Alertas de estilo:  
+  - gerúndios  
+  - redundâncias  
+  - sintaxe pouco fluida  
+- Correção em massa (em desenvolvimento)
+
+###  2. Localização e esquema PT
+- Base de dados completa de distritos / concelhos / freguesias  
+- Atributos específicos para LocalBusiness  
+- Geração de schema otimizado para Portugal  
+- Campo específico para localização no editor WordPress  
+- API interna que permite outros plugins usarem esta informação
+
+###  3. Painel de controlo simples
+- Abas “Geral” e “Localização”  
+- Guardar configurações via API Settings WordPress  
+- Interface leve e rápida  
+
+###  4. Arquitetura modular
+- Código dividido por módulos (linguagem, localização, UI)  
+- Fácil de estender ou integrar noutros plugins  
+- JSONs independentes para atualização contínua
 
 ---
 
-##  Contacto
-Frederico Lopes – info@fredericolopes.com
-Website: https://fredericolopes.com
+#  Instalação
+
+### Método 1: via WordPress
+1. Aceder a **Plugins → Adicionar novo**
+2. Carregar o ficheiro `.zip`
+3. Instalar e ativar
+
+### Método 2: via FTP
+1. Extrair o `.zip`
+2. Enviar a pasta para `/wp-content/plugins/seo-pt/`
+3. Ativar no painel WordPress
+
+---
+
+#  Como usar
+
+##  Passo 1 — Ativar a curadoria linguística PT-PT
+1. Ir a **SEO-PT → Geral**  
+2. Ativar:
+   - Conversão BR → PT-PT  
+   - Sugestões de estilo  
+   - Alertas de gerúndios  
+3. Guardar
+
+### Exemplo
+Texto:  
+> “Estamos realizando uma atualização para melhorar a performance.”
+
+Alerta gerado:  
+> “Sugestão PT-PT: *Estamos a realizar uma atualização…*”
+
+---
+
+##  Passo 2 — Definir localização PT para schema
+1. Ir a **SEO-PT → Localização**  
+2. Selecionar:
+   - Distrito  
+   - Concelho  
+   - Freguesia  
+3. Opcional: definir **localidade**  
+4. O plugin passa a gerar schema PT-optimizado em todas as páginas de LocalBusiness.
+
+### Exemplo de schema gerado
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Exemplo Lda",
+  "address": {
+    "addressCountry": "PT",
+    "addressRegion": "Lisboa",
+    "addressLocality": "Cascais",
+    "areaServed": "Cascais",
+    "district": "Lisboa",
+    "municipality": "Cascais",
+    "parish": "Alcabideche"
+  }
+}
