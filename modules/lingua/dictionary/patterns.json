@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Estilo Linguístico Brasileiro (gerúndio)",
+    "regex": "\\b(estou|estás|está|estamos|estão)\\s+([a-zçãõéêí]+)ndo\\b",
+    "suggest": "Sugestão PT‑PT: usar 'estar a + infinitivo' (ex.: 'estou a fazer').",
+    "severity": "warn",
+    "meta": "Sintaxe/Gramática – Estilo"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "trem": {
+    "suggest": "comboio",
+    "severity": "error",
+    "category": "Vocabulário"
+  },
+  "ônibus": {
+    "suggest": "autocarro",
+    "severity": "error",
+    "category": "Vocabulário"
+  },
+  "onibus": {
+    "suggest": "autocarro",
+    "severity": "error",
+    "category": "Vocabulário"
+  },
+  "caminhão": {
+    "suggest": "camião",
+    "severity": "error",
+    "category": "Vocabulário"
+  },
+  "celular": {
+    "suggest": "telemóvel",
+    "severity": "error",
+    "category": "Vocabulário"
+  }
+}

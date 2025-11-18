@@ -1,0 +1,19 @@
+/* Panel styles */
+.ptseo-title{font-size:28px;margin:18px 0 8px;display:flex;align-items:center;gap:8px}
+.ptseo-title .logo{display:inline-flex;width:28px;height:28px;border-radius:6px;background:#6a00ff;color:#fff;align-items:center;justify-content:center;font-weight:700;text-transform:uppercase}
+.ptseo-panel{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:18px 20px}
+.ptseo-panel-header h2{font-size:22px;margin:6px 0}
+.ptseo-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin-top:8px}
+.ptseo-card{border:1px solid #e5e7eb;border-radius:12px;padding:16px;background:#fff}
+.ptseo-card-head{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.ptseo-card-title{font-size:18px;font-weight:600}
+.ptseo-icon{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+.ptseo-icon.ai{background:#7c3aed}
+.ptseo-icon.lm{background:#0ea5e9}
+.ptseo-toggle{display:flex;align-items:center;justify-content:space-between;border-top:1px dashed #e5e7eb;margin-top:12px;padding-top:10px}
+.switch{position:relative;display:inline-block;width:48px;height:24px}
+.switch input{display:none}
+.slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background:#e5e7eb;transition:.2s;border-radius:30px}
+.slider:before{position:absolute;content:"";height:18px;width:18px;left:3px;top:3px;background:white;transition:.2s;border-radius:50%}
+.switch input:checked + .slider{background:#10b981}
+.switch input:checked + .slider:before{transform:translateX(24px)}

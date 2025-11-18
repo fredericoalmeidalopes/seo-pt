@@ -1,0 +1,11 @@
+#ptseo_linguabox{border:1px solid #e5e7eb;border-radius:8px;padding:12px;background:#fff}
+#ptseo_linguabox .score{display:flex;align-items:center;justify-content:space-between}
+#ptseo_linguabox .label{font-weight:600}
+#ptseo_linguabox .badge{background:#f59e0b;color:#fff;padding:6px 10px;border-radius:999px;font-weight:700}
+#ptseo_linguabox .meta{color:#4b5563;margin:8px 0}
+#ptseo_linguabox .issues{list-style:none;margin:0;padding:0}
+#ptseo_linguabox .issues li{border-left:4px solid #ef4444;background:#fff1f2;margin:8px 0;padding:8px 10px;border-radius:6px}
+#ptseo_linguabox .issues li.warn{border-left-color:#f59e0b;background:#fff7ed}
+#ptseo_linguabox .issues .title{font-weight:600;margin-bottom:4px}
+#ptseo_linguabox .issues .meta{font-size:12px;color:#6b7280;margin:0}
+#ptseo_linguabox .issues .suggest{font-style:italic}
