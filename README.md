@@ -149,3 +149,8 @@ Alerta gerado:
     "parish": "Alcabideche"
   }
 }
+
+
+## Licença
+Distribuído sob a **GPLv2 ou posterior**.  
+
