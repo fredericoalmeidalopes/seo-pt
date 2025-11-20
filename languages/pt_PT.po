@@ -1,0 +1,330 @@
+# Portuguese translations for PT SEO Suite package.
+# Copyright (C) 2025 Frederico Lopes
+# This file is distributed under the same license as the PT SEO Suite package.
+#  <ubuntu@d7a2473e82c2>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PT SEO Suite 2.0.5\n"
+"Report-Msgid-Bugs-To: fredericoalmeidalopes@gmail.com\n"
+"POT-Creation-Date: 2025-11-20 04:11-0500\n"
+"PO-Revision-Date: 2025-11-20 04:11-0500\n"
+"Last-Translator:  <ubuntu@d7a2473e82c2>\n"
+"Language-Team: Portuguese <translation-team-pt@googlegroups.com>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: seo-pt/modules/lingua/module-lingua.php:22
+msgid "A analisar…"
+msgstr ""
+
+#: seo-pt/includes/class-admin.php:20 seo-pt/includes/class-admin.php:25
+msgid "Abrir módulo"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:40
+msgid "Add Location"
+msgstr ""
+
+#: seo-pt/modules/lingua/module-lingua.php:161
+msgid ""
+"Analisa o conteúdo em tempo real para conversão PT‑BR → PT‑PT (Gutenberg e "
+"Editor Clássico)."
+msgstr ""
+
+#: seo-pt/modules/lingua/module-lingua.php:22
+msgid "Analisar agora (opcional)"
+msgstr ""
+
+#: seo-pt/modules/lingua/module-lingua.php:5
+msgid "Análise Linguística"
+msgstr ""
+
+#: seo-pt/includes/class-admin.php:23
+#: seo-pt/modules/lingua/module-lingua.php:21
+#: seo-pt/modules/lingua/module-lingua.php:161
+msgid "Análise Linguística PT‑PT"
+msgstr ""
+
+#: seo-pt/includes/class-admin.php:21 seo-pt/includes/class-admin.php:26
+msgid "Ativar funcionalidade"
+msgstr ""
+
+#: seo-pt/modules/lingua/module-lingua.php:22
+msgid "Avisos"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:103
+msgid "Ações"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:37
+msgid "Concelho"
+msgstr ""
+
+#: seo-pt/includes/class-admin.php:24
+msgid ""
+"Curadoria em tempo real do conteúdo: detecta termos e estruturas do "
+"Português do Brasil e sugere equivalentes e estilo PT‑PT, com pontuação."
+msgstr ""
+
+#: seo-pt/includes/class-admin.php:19
+#, php-format
+msgid ""
+"Defina a localização (Distrito/Ilha → Concelho → Freguesia) e gere JSON‑LD "
+"<em>LocalBusiness</em> optimizado para Portugal. Dados 100% offline."
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:232
+msgid "Descarregar JSON"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:31
+msgid "Descarregar listagens (pt-admin.min.json)"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:36
+msgid "Distrito / Ilha"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:111
+msgid "Editar"
+msgstr ""
+
+#: seo-pt/modules/lingua/module-lingua.php:22
+msgid "Erros"
+msgstr ""
+
+#: seo-pt/includes/class-admin.php:13
+msgid "Escolha que funcionalidades quer utilizar."
+msgstr ""
+
+#: seo-pt/modules/lingua/module-lingua.php:96
+#, php-format
+msgid ""
+"Estilo Linguístico Brasileiro (gerúndio) encontrado (%d vez(es)) Sugestão PT-"
+"PT: usar “estar a + infinitivo” (ex.: “estou a fazer”)."
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:40
+msgid "Ferramentas"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:226
+msgid "Ferramentas – SEO PT‑PT Local"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:232
+msgid "Ficheiro atual:"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:38
+msgid "Freguesia"
+msgstr ""
+
+#: seo-pt/includes/class-admin.php:5 seo-pt/includes/class-admin.php:13
+msgid "Funcionalidades do site"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:27
+#: seo-pt/modules/local/module-local.php:63
+msgid "Geographic"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:47
+msgid "Geographic Location"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:227
+msgid ""
+"Gerar <code>pt-admin.min.json</code> (Portugal completo – Continente + "
+"Açores + Madeira) a partir de fontes públicas com códigos INE."
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:230
+msgid "Gerar Portugal completo (minificado)"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:31
+msgid "Gerar e descarregar listagens"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:43
+msgid "Guardar"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:92
+msgid "Guardar Schema da Página"
+msgstr ""
+
+#: seo-pt/includes/class-admin.php:29
+msgid "Guardar alterações"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:79
+msgid "ID da Página ou URL"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:80
+msgid ""
+"Insira o ID da página ou o URL completo onde o Schema deve ser aplicado."
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:87
+msgid "Insira o código JSON-LD completo. Certifique-se de que o JSON é válido."
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:84
+msgid "JSON-LD Schema"
+msgstr ""
+
+#: seo-pt/modules/lingua/module-lingua.php:5
+msgid "Linguística (PT‑PT)"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:30
+msgid ""
+"Listas estáticas embutidas (sem importador). Este build suporta PT completo "
+"(Continente + Ilhas)."
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:15
+msgid "Local (Geo)"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:17
+#: seo-pt/modules/local/module-local.php:27
+#: seo-pt/modules/local/module-local.php:63
+msgid "Local Pages"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:16
+msgid "Local — Ferramentas"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:17
+msgid "Local — Páginas"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:29
+msgid "Location Settings"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:65
+msgid "Marcação Schema por Página"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:41
+msgid "Multiple Locations"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:100
+msgid "Nenhum Schema individual definido."
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:107
+msgid "Não especificado"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:25
+#: seo-pt/modules/local/module-local.php:61
+msgid "Opções guardadas com sucesso."
+msgstr ""
+
+#: seo-pt/includes/class-admin.php:5
+msgid "PT SEO"
+msgstr ""
+
+#: seo-pt/modules/lingua/module-lingua.php:22
+msgid "Palavras"
+msgstr ""
+
+#: seo-pt/modules/lingua/module-lingua.php:22
+msgid "Pontuação de Análise PT‑PT"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:50
+msgid "Portugal"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:45
+msgid "Pré‑visualização do JSON‑LD"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:73
+msgid "Página"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:103
+msgid "Página (ID/URL)"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:111
+msgid "Remover"
+msgstr ""
+
+#: seo-pt/includes/class-admin.php:18 seo-pt/modules/local/module-local.php:15
+#: seo-pt/modules/local/module-local.php:24
+msgid "SEO PT‑PT Local"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:60
+msgid "SEO PT‑PT Local — Páginas"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:95
+msgid "Schemas Ativos"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:38
+msgid "Selecione a freguesia"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:37
+msgid "Selecione o concelho"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:36
+msgid "Selecione o distrito/ilha"
+msgstr ""
+
+#: seo-pt/modules/lingua/module-lingua.php:100
+#: seo-pt/modules/lingua/module-lingua.php:113
+msgid "Sintaxe/Gramática – Estilo"
+msgstr ""
+
+#: seo-pt/modules/lingua/module-lingua.php:78
+msgid "Sugestão PT-PT"
+msgstr ""
+
+#: seo-pt/modules/lingua/module-lingua.php:75
+msgid "Termo Brasileiro encontrado"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:103
+msgid "Tipo de Schema"
+msgstr ""
+
+#: seo-pt/modules/local/module-local.php:66
+msgid ""
+"Utilize esta secção para adicionar marcação Schema individual (JSON-LD) a "
+"páginas específicas. O Schema aqui definido terá prioridade sobre o Schema "
+"global."
+msgstr ""
+
+#: seo-pt/modules/lingua/module-lingua.php:82
+msgid "Vocabulário – Alerta e Sugestão"
+msgstr ""
+
+#: seo-pt/modules/lingua/module-lingua.php:77
+msgid "vez(es)"
+msgstr ""
+
+#: seo-pt/modules/lingua/module-lingua.php:111
+#, php-format
+msgid ""
+"“você” (%d vez(es)). Sugestão PT-PT: “tu” ou forma impessoal, conforme o tom."
+msgstr ""
