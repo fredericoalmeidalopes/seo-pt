@@ -3,7 +3,7 @@
  * Plugin Name: PT SEO Suite
  * Description: Suite de SEO para PT com módulos: (1) Local (JSON-LD + listas PT), (2) Análise Linguística PT‑PT. Painel principal tipo Yoast.
  * Version: 2.0.5
- * Author: Frederico Lopes & M365 Copilot
+ * Author: Frederico Lopes
  * Text Domain: pt-seo
  */
 if ( ! defined('ABSPATH') ) exit;
